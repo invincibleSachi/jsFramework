@@ -1,0 +1,44 @@
+{
+  "name": "master-js-e2e-tests",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "prestart-webdriver": "webdriver-manager update",
+    "start-webdriver": "webdriver-manager start",
+    "protractor": "protractor protractor.conf.js"
+  },
+  "author": {
+    "name": "sachchida singh",
+    "email": "singh.sachchida06@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/sachchidanandsingh/"
+  },
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^2.3.1",
+    "cucumber-html-report": "^0.6.0",
+    "cucumberjs-allure-reporter": "^1.0.3",
+    "jasmine": "^3.2.0",
+    "jasmine-core": "~2.6.2",
+    "jasmine-expect": "^3.8.4",
+    "jasmine-spec-reporter": "^4.2.1",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "log4js": "^3.0.5",
+    "mkdirp": "^0.5.1",
+    "pg": "^6.0.3",
+    "protractor": "^5.1.2",
+    "protractor-beautiful-reporter": "^1.2.5",
+    "protractor-cucumber-framework": "^3.1.2",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "typescript": "~2.3.3",
+    "uuid": "^3.3.2"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.16.2",
+    "protractor-jasmine2-screenshot-reporter-2": "0.0.1"
+  }
+}

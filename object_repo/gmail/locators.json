@@ -1,0 +1,11 @@
+{
+    "loginPage":{        
+        "email":"//input[@id='identifierId']",
+        "nextBtn":"//div[@id='identifierNext']",
+        "password":"//input[@name='password']"
+    },
+
+    "mailBoxPage":{
+    }
+
+}
