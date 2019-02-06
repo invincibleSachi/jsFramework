@@ -5,4 +5,4 @@ var gmailLoginPage = function () {
         //doLogin
     }
 }
-module.exports = new CategoryAttributeAdminPage();
+module.exports = new gmailLoginPage();
