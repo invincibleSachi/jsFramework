@@ -13,4 +13,4 @@ var inBoxPage = function () {
         //do ui Stuffs
     };
 };
-module.exports = new RetailSearchPage();
+module.exports = new inBoxPage();
